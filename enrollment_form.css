@@ -1,0 +1,104 @@
+/* body{
+    background-color: #CEB5D4;
+}
+.header{
+    background-color: #437AB1;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.header h1{
+    text-align: center;
+}
+.header h3{
+    text-align: left;
+    margin-left: 10px;
+}
+body form{
+    width: 80%;
+    background-color: aqua;
+} */
+body {
+    font-family: Arial, sans-serif; /* Sets a clean and modern font */
+    background-color: #f0f8ff; /* Light background color for contrast */
+    margin: 0;
+    padding: 20px;
+}
+
+.header {
+    margin-bottom: 30px;
+}
+
+h1 {
+    text-align: center;
+    color: #008080; /* Teal color for the heading */
+    font-size: 2.5em; /* Larger font size for the title */
+    margin: 0;
+}
+
+h3 {
+    width: 80%;
+    color: #f98c78; /* Coral color for the subtitle */
+    font-size: 1.5em; /* Slightly larger font for the instructions */
+    margin: 0 auto;
+}
+
+ol {
+    text-align: left; /* Align instructions to the left */
+    margin: 0 auto;
+    padding: 1;
+    width: 80%;; /* Limit the width of the instructions */
+}
+
+form {
+    background-color: #ffffff; /* White background for the form */
+    border: 2px solid #008080; /* Teal border for the form */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    width: 80% ;
+    margin: 0 auto;
+}
+
+label {
+    display: block; /* Make labels block elements */
+    margin: 15px 0 5px; /* Space between labels and inputs */
+    color: #333; /* Darker text color for readability */
+    font-size: 1.1em; /* Slightly larger font size for labels */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select {
+    width: 97%; /* Full width inputs */
+    padding: 10px; /* Padding for inputs */
+    border: 1px solid #ccc; /* Light border for inputs */
+    border-radius: 5px; /* Rounded corners for inputs */
+    font-size: 1em; /* Standard font size for inputs */
+}
+
+#course{
+    margin-bottom: 10px;
+}
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 10px; /* Space between input and label */
+}
+
+button {
+    display: block;
+    background-color: #ff6347; /* Coral color for the button */
+    color: white; /* White text for the button */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners for the button */
+    padding: 10px 20px; /* Padding for the button */
+    font-size: 1.2em; /* Larger font size for the button */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+    margin: 20px auto;
+}
+
+button:hover {
+    background-color: #ff4500; /* Darker coral color on hover */
+}
